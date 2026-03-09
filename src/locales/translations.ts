@@ -1,0 +1,231 @@
+export const translations = {
+  es: {
+    // Header Navigation
+    nav: {
+      home: 'Inicio',
+      about: 'Quiénes somos',
+      services: 'Servicios y Productos',
+      gallery: 'Galería',
+      experience: 'Experiencia (Galería)',
+      missionVision: 'Misión y visión',
+      downloads: 'Descarga',
+      contact: 'Contacto',
+      adminLogin: 'Admin Login',
+      more: 'Más',
+      requestConsultation: 'Solicitar Consultoría',
+    },
+    // Homepage
+    homepage: {
+      heroTitle: 'Precisión en Automatización,',
+      heroTitleAccent: 'Resultados Inteligentes',
+      heroDescription: 'Transformamos la industria a través de soluciones mecatrónicas innovadoras que combinan precisión mecánica, electrónica avanzada e inteligencia digital.',
+      requestConsultation: 'Solicitar Consultoría',
+      exploreServices: 'Explorar Servicios',
+      projectsCompleted: 'Proyectos Completados',
+      yearsExperience: 'Años de Experiencia',
+      clientsSatisfied: 'Clientes Satisfechos',
+      solutionsImplemented: 'Soluciones Implementadas',
+    },
+    // Services
+    services: {
+      title: 'Servicios y Productos',
+      subtitle: 'Soluciones Integrales de Automatización Industrial',
+      description: 'Catálogo completo de soluciones de automatización industrial y mecatrónica',
+      filterAll: 'Todos',
+      filterAutomation: 'Automatización',
+      filterRobotics: 'Robótica',
+      filterControl: 'Control',
+      filterMaintenance: 'Mantenimiento',
+      viewDetails: 'Ver Detalles',
+      requestQuote: 'Solicitar Cotización',
+    },
+    // Contact
+    contact: {
+      title: 'Contáctenos',
+      subtitle: 'Estamos aquí para ayudarle',
+      description: 'Contáctenos para consultas sobre automatización industrial, robótica y soluciones mecatrónicas',
+      name: 'Nombre',
+      email: 'Correo Electrónico',
+      phone: 'Teléfono',
+      company: 'Empresa',
+      projectType: 'Tipo de Proyecto',
+      budget: 'Presupuesto',
+      timeline: 'Plazo',
+      message: 'Mensaje',
+      contactPreference: 'Preferencia de Contacto',
+      submit: 'Enviar Mensaje',
+      sending: 'Enviando...',
+      selectProjectType: 'Seleccione tipo de proyecto',
+      selectBudget: 'Seleccione presupuesto estimado',
+      selectTimeline: 'Seleccione plazo deseado',
+      nameRequired: 'El nombre es obligatorio',
+      emailRequired: 'El correo electrónico es obligatorio',
+      emailInvalid: 'Correo electrónico inválido',
+      phoneRequired: 'El teléfono es obligatorio',
+      phoneInvalid: 'Número de teléfono inválido',
+      projectTypeRequired: 'Seleccione un tipo de proyecto',
+      messageRequired: 'El mensaje es obligatorio',
+      messageMinLength: 'El mensaje debe tener al menos 20 caracteres',
+    },
+    // Admin Login
+    adminLogin: {
+      title: 'Acceso Administrativo',
+      subtitle: 'Portal de inicio de sesión seguro',
+      username: 'Nombre de Usuario',
+      password: 'Contraseña',
+      showPassword: 'Mostrar contraseña',
+      hidePassword: 'Ocultar contraseña',
+      rememberMe: 'Recordarme',
+      forgotPassword: 'Olvidé mi contraseña',
+      login: 'Iniciar Sesión',
+      loggingIn: 'Iniciando sesión...',
+      usernameRequired: 'El nombre de usuario es obligatorio',
+      usernameMinLength: 'El nombre de usuario debe tener al menos 3 caracteres',
+      passwordRequired: 'La contraseña es obligatoria',
+      passwordMinLength: 'La contraseña debe tener al menos 6 caracteres',
+      accountLocked: 'Cuenta bloqueada temporalmente',
+      tooManyAttempts: 'Demasiados intentos fallidos',
+      tryAgainIn: 'Intente nuevamente en',
+      seconds: 'segundos',
+    },
+    // Common
+    common: {
+      learnMore: 'Más Información',
+      readMore: 'Leer Más',
+      viewAll: 'Ver Todo',
+      close: 'Cerrar',
+      cancel: 'Cancelar',
+      save: 'Guardar',
+      delete: 'Eliminar',
+      edit: 'Editar',
+      search: 'Buscar',
+      filter: 'Filtrar',
+      loading: 'Cargando...',
+      error: 'Error',
+      success: 'Éxito',
+    },
+  },
+  en: {
+    // Header Navigation
+    nav: {
+      home: 'Home',
+      about: 'About',
+      services: 'Services',
+      gallery: 'Gallery',
+      experience: 'Experience',
+      missionVision: 'Mission & Vision',
+      downloads: 'Downloads',
+      contact: 'Contact',
+      adminLogin: 'Admin Login',
+      more: 'More',
+      requestConsultation: 'Request Consultation',
+    },
+    // Homepage
+    homepage: {
+      heroTitle: 'Precision in Automation,',
+      heroTitleAccent: 'Intelligent Results',
+      heroDescription: 'We transform industry through innovative mechatronic solutions that combine mechanical precision, advanced electronics, and digital intelligence.',
+      requestConsultation: 'Request Consultation',
+      exploreServices: 'Explore Services',
+      projectsCompleted: 'Projects Completed',
+      yearsExperience: 'Years of Experience',
+      clientsSatisfied: 'Satisfied Clients',
+      solutionsImplemented: 'Solutions Implemented',
+    },
+    // Services
+    services: {
+      title: 'Services and Products',
+      subtitle: 'Comprehensive Industrial Automation Solutions',
+      description: 'Complete catalog of industrial automation and mechatronic solutions',
+      filterAll: 'All',
+      filterAutomation: 'Automation',
+      filterRobotics: 'Robotics',
+      filterControl: 'Control',
+      filterMaintenance: 'Maintenance',
+      viewDetails: 'View Details',
+      requestQuote: 'Request Quote',
+    },
+    // Contact
+    contact: {
+      title: 'Contact Us',
+      subtitle: 'We are here to help you',
+      description: 'Contact us for inquiries about industrial automation, robotics, and mechatronic solutions',
+      name: 'Name',
+      email: 'Email',
+      phone: 'Phone',
+      company: 'Company',
+      projectType: 'Project Type',
+      budget: 'Budget',
+      timeline: 'Timeline',
+      message: 'Message',
+      contactPreference: 'Contact Preference',
+      submit: 'Send Message',
+      sending: 'Sending...',
+      selectProjectType: 'Select project type',
+      selectBudget: 'Select estimated budget',
+      selectTimeline: 'Select desired timeline',
+      nameRequired: 'Name is required',
+      emailRequired: 'Email is required',
+      emailInvalid: 'Invalid email',
+      phoneRequired: 'Phone is required',
+      phoneInvalid: 'Invalid phone number',
+      projectTypeRequired: 'Select a project type',
+      messageRequired: 'Message is required',
+      messageMinLength: 'Message must be at least 20 characters',
+    },
+    // Admin Login
+    adminLogin: {
+      title: 'Administrative Access',
+      subtitle: 'Secure login portal',
+      username: 'Username',
+      password: 'Password',
+      showPassword: 'Show password',
+      hidePassword: 'Hide password',
+      rememberMe: 'Remember me',
+      forgotPassword: 'Forgot password',
+      login: 'Login',
+      loggingIn: 'Logging in...',
+      usernameRequired: 'Username is required',
+      usernameMinLength: 'Username must be at least 3 characters',
+      passwordRequired: 'Password is required',
+      passwordMinLength: 'Password must be at least 6 characters',
+      accountLocked: 'Account temporarily locked',
+      tooManyAttempts: 'Too many failed attempts',
+      tryAgainIn: 'Try again in',
+      seconds: 'seconds',
+    },
+    // Common
+    common: {
+      learnMore: 'Learn More',
+      readMore: 'Read More',
+      viewAll: 'View All',
+      close: 'Close',
+      cancel: 'Cancel',
+      save: 'Save',
+      delete: 'Delete',
+      edit: 'Edit',
+      search: 'Search',
+      filter: 'Filter',
+      loading: 'Loading...',
+      error: 'Error',
+      success: 'Success',
+    },
+  },
+};
+
+export type TranslationKey = keyof typeof translations.es;
+
+export const getTranslation = (language: 'es' | 'en', path: string): string => {
+  const keys = path.split('.');
+  let value: any = translations[language];
+  
+  for (const key of keys) {
+    if (value && typeof value === 'object' && key in value) {
+      value = value[key];
+    } else {
+      return path;
+    }
+  }
+  
+  return typeof value === 'string' ? value : path;
+};
