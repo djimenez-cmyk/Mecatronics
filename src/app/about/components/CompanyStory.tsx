@@ -34,7 +34,7 @@ const CompanyStory = ({ className = '' }: CompanyStoryProps) => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-brand-lg">
               <img
-                src="/assets/imagenes/recepcion.png"
+                src="/assets/imagenes/recepcion2.png"
                 alt="Modern industrial automation facility with robotic arms and control systems in operation"
                 className="w-full h-full object-cover" />
 
