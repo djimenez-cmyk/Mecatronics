@@ -34,7 +34,7 @@ const FeaturedProjects = () => {
     title: 'Fabricaciones',
     category: 'Manufactura',
     description: 'Fabricación de componentes y estructuras metálicas de precisión para aplicaciones industriales especializadas.',
-    image: "/assets/imagenes/aplicaciones/2fabricaciones/Imagen-10.jpg",
+    image: "/assets/imagenes/aplicaciones/2fabricaciones/imagen-10.jpg",
     alt: 'Metal fabrication workshop with welding equipment and steel structures',
     metrics: [
     { label: 'Precisión', value: '±0.05mm' },
