@@ -56,7 +56,7 @@ const FilterBar = ({
     <div className="bg-card rounded-lg shadow-brand p-6 mb-8">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
         <h2 className="text-xl font-heading font-bold text-text-primary">
-          Filtrar Servicios
+          Catálogo
         </h2>
         {hasActiveFilters && (
           <button

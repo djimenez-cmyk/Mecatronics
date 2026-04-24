@@ -978,12 +978,10 @@ const ServicesInteractive = () => {
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-text-primary mb-4">
-              Servicios y Productos
+              Especialidades
             </h1>
             <p className="text-lg text-text-secondary max-w-3xl">
-              Soluciones completas de automatización industrial y mecatrónica
-              diseñadas para transformar su operación. Explore nuestro catálogo
-              de servicios especializados.
+              Desarrollamos soluciones de automatización industrial y mecatrónica diseñadas para mejorar la productividad, solucionar y prevenir problemas de calidad, asegurar la rastreabilidad del producto y fortalecer los sistemas de información.
             </p>
           </div>
 
@@ -1028,7 +1026,7 @@ const ServicesInteractive = () => {
           <div className="mb-6">
             <p className="text-sm text-text-secondary">
               Mostrando {filteredServices.length} de {mockServices.length}{' '}
-              servicios
+              
             </p>
           </div>
 

@@ -15,7 +15,7 @@ const CTASection = ({ className = '' }: CTASectionProps) => {
             ¿Listo para Transformar su Operación?
           </h2>
           <p className="text-lg text-primary-foreground/90 max-w-3xl mx-auto mb-8">
-            Únase a más de 300 empresas que han confiado en Mecatronics Pro para llevar su automatización industrial al siguiente nivel.
+            Únase a más de 300 empresas que han confiado en Mecatronics para llevar su automatización industrial al siguiente nivel.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">

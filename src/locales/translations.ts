@@ -4,7 +4,7 @@ export const translations = {
     nav: {
       home: 'Inicio',
       about: 'Quiénes somos',
-      services: 'Servicios y Productos',
+      services: 'Especialidades',
       gallery: 'Galería',
       experience: 'Experiencia (Galería)',
       missionVision: 'Misión y visión',

@@ -24,7 +24,7 @@ export default function AboutPage() {
         <CompanyValues />
         {/*<TeamSection />*/}
         {/*<CertificationsSection />*/}
-        <CompanyTimeline />
+        {/*<CompanyTimeline />*/}
         {/*<TestimonialsSection />*/}
         <CTASection />
       </main>

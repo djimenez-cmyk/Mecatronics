@@ -32,11 +32,11 @@ const CompanyStory = ({ className = '' }: CompanyStoryProps) => {
           </div>
 
           <div className="relative">
-            <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-brand-lg">
+            <div className="aspect-[4/3] w-100 h-80 rounded-lg overflow-hidden shadow-brand-lg translate-x-32">
               <img
-                src="/assets/imagenes/recepcion2.png"
-                alt="Modern industrial automation facility with robotic arms and control systems in operation"
-                className="w-full h-full object-cover" />
+                src="/assets/images/logo_mecatronics.png"
+                alt="C & S Mecatronics Logo"
+                className="w-full h-full object-contain" />
 
             </div>
             <div className="absolute -bottom-6 -right-6 bg-card p-6 rounded-lg shadow-brand-lg border border-border max-w-xs">
@@ -44,7 +44,7 @@ const CompanyStory = ({ className = '' }: CompanyStoryProps) => {
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 bg-success/10 rounded-full flex items-center justify-center">
                     <span className="text-2xl font-heading font-bold text-success">
-                      15+
+                      20+
                     </span>
                   </div>
                 </div>
