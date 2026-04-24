@@ -32,15 +32,18 @@ const CTASection = () => {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="flex items-center justify-center w-12 h-12 bg-white/10 rounded-lg mx-auto mb-3 backdrop-blur-sm">
-                <Icon name="PhoneIcon" size={24} className="text-white" />
+                <Icon name="whatsapp" className="text-white text-[28px]" />
               </div>
-              <div className="text-sm text-white/80 mb-1">Llámenos</div>
+              <div className="text-sm text-white/80 mb-1">Contáctanos</div>
               <div className="text-base font-heading font-semibold text-white">
-                01(81) 8383-9460 <br />
+                (81) 4599 1809
+                {/*
+                <br />
                 01(81) 8330-0717
+                */}
               </div>
             </div>
 
@@ -54,7 +57,7 @@ const CTASection = () => {
                 www.mecatronics.com.mx
               </div>
             </div>
-
+            {/*
             <div className="text-center">
               <div className="flex items-center justify-center w-12 h-12 bg-white/10 rounded-lg mx-auto mb-3 backdrop-blur-sm">
                 <Icon name="PrinterIcon" size={24} className="text-white" />
@@ -64,6 +67,7 @@ const CTASection = () => {
                 01(81) 8330-0717
               </div>
             </div>
+            */}
           </div>
         </div>
       </div>

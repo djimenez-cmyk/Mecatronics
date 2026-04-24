@@ -22,7 +22,7 @@ const FeaturedProjects = () => {
     title: 'Equipo de Manejo de Materiales',
     category: 'Automatización Industrial',
     description: 'Soluciones integrales para el transporte, almacenamiento y manipulación eficiente de materiales en procesos industriales.',
-    image: "/assets/imagenes/aplicaciones/1equipo_manejo_materiales/Imagen-2.jpg",
+    image: "/assets/imagenes/proyects-homepage/ManejoMateriales.JPG",
     alt: 'Automated material handling system with conveyor belts in modern warehouse',
     metrics: [
     { label: 'Eficiencia', value: '+45%' },
@@ -34,7 +34,7 @@ const FeaturedProjects = () => {
     title: 'Fabricaciones',
     category: 'Manufactura',
     description: 'Fabricación de componentes y estructuras metálicas de precisión para aplicaciones industriales especializadas.',
-    image: "/assets/imagenes/aplicaciones/2fabricaciones/imagen-10.jpg",
+    image: "/assets/imagenes/proyects-homepage/Fabricaciones.JPG",
     alt: 'Metal fabrication workshop with welding equipment and steel structures',
     metrics: [
     { label: 'Precisión', value: '±0.05mm' },
@@ -46,7 +46,7 @@ const FeaturedProjects = () => {
     title: 'Aplicaciones',
     category: 'Control de Procesos',
     description: 'Desarrollo e implementación de aplicaciones industriales personalizadas para optimización de procesos y control.',
-    image: "/assets/imagenes/aplicaciones/3aplicaciones/untitled-6.jpg",
+    image: "/assets/imagenes/proyects-homepage/Aplicaciones.JPG",
     alt: 'Industrial control panel with touchscreen interface showing process data',
     metrics: [
     { label: 'Optimización', value: '+50%' },

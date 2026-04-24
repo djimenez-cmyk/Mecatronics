@@ -4,6 +4,7 @@ import React from 'react';
 import * as HeroIcons from '@heroicons/react/24/outline';
 import * as HeroIconsSolid from '@heroicons/react/24/solid';
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
+import { FaWhatsapp } from 'react-icons/fa';
 
 type IconVariant = 'outline' | 'solid';
 
@@ -16,6 +17,9 @@ interface IconProps {
     disabled?: boolean;
     [key: string]: any;
 }
+const customIcons = {
+  whatsapp: FaWhatsapp,
+};
 
 function Icon({
     name,
@@ -27,7 +31,10 @@ function Icon({
     ...props
 }: IconProps) {
     const iconSet = variant === 'solid' ? HeroIconsSolid : HeroIcons;
-    const IconComponent = iconSet[name as keyof typeof iconSet] as React.ComponentType<any>;
+    const CustomIcon = customIcons[name as keyof typeof customIcons];
+    const HeroIcon = iconSet[name as keyof typeof iconSet] as React.ComponentType<any>;
+    const IconComponent = CustomIcon || HeroIcon;
+    //const IconComponent = iconSet[name as keyof typeof iconSet] as React.ComponentType<any>;
 
     if (!IconComponent) {
         return (
