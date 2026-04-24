@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 
 export const metadata: Metadata = {
   title: 'Inicio - Mecatronics Pro',
-  description: 'Soluciones integrales de automatización industrial y mecatrónica. Transformamos la industria a través de la innovación tecnológica con más de 15 años de experiencia y 250+ proyectos completados.',
 };
 
 export default function HomePage() {

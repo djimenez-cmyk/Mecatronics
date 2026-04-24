@@ -29,7 +29,7 @@ const HeroSection = () => {
   useEffect(() => {
     if (!isHydrated) return;
 
-    const targetValues = [250, 15, 98, 500];
+    const targetValues = [+1500, 20, 98, 1000];
     const duration = 2000;
     const steps = 60;
     const interval = duration / steps;
