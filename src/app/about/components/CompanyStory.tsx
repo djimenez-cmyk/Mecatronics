@@ -12,7 +12,7 @@ const CompanyStory = ({ className = '' }: CompanyStoryProps) => {
           <div className="space-y-6">
             <div className="inline-block px-4 py-2 bg-primary/10 rounded-md">
               <span className="text-sm font-heading font-semibold text-primary">
-                Test
+               Nuestra historia
               </span>
             </div>
             <h2 className="text-4xl font-heading font-bold text-text-primary leading-tight">SOMOS SUS SOCIOS EN SUS PROYECTOS DE AUTOMATIZACIÓN
