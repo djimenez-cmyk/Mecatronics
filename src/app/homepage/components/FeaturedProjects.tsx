@@ -22,7 +22,7 @@ const FeaturedProjects = () => {
     title: 'Equipo de Manejo de Materiales',
     category: 'Automatización Industrial',
     description: 'Soluciones integrales para el transporte, almacenamiento y manipulación eficiente de materiales en procesos industriales.',
-    image: "/assets/imagenes/proyects-homepage/ManejoMateriales.JPG",
+    image: "/assets/imagenes/proyects-homepage/manejomateriales.jpg",
     alt: 'Automated material handling system with conveyor belts in modern warehouse',
     metrics: [
     { label: 'Eficiencia', value: '+45%' },
