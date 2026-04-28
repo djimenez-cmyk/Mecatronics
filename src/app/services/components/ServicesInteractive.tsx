@@ -48,7 +48,7 @@ const ServicesInteractive = () => {
     title: 'Ingeniería',
     description:
     'Servicios completos de ingeniería mecatrónica para diseño, análisis y optimización de sistemas industriales. Soluciones integrales desde la conceptualización hasta la implementación.',
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1e601e131-1768462218303.png",
+    image: "/assets/imagenes/services/Ingenieria.png",
     alt: 'Engineering team working on industrial automation design and technical drawings',
     features: [
     'Análisis y diseño de sistemas',
@@ -63,7 +63,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '8-12 semanas',
     roi: '18-24 meses',
-    industries: ['Manufactura', 'Automotriz', 'Alimentaria'],
+    industries: ['Manufactura', 'Automotriz', 'Médica'],
     technicalSpecs: [
     'Diseño CAD 3D avanzado',
     'Simulación de sistemas',
@@ -84,10 +84,12 @@ const ServicesInteractive = () => {
     id: 2,
     title: 'Diseño de Tableros de Control',
     description:
-    'Diseño y fabricación de tableros de control eléctrico personalizados según especificaciones y normativas internacionales. Soluciones completas para control industrial.',
-    image: "https://images.unsplash.com/photo-1710678683936-306f9442eec8",
+    'Diseño y fabricación de tableros de control eléctrico personalizados según especificaciones y normativas internacionales. Soluciones completas de hardware y software para control preciso.',
+    image: "/assets/imagenes/services/DisenoTableros.png",
     alt: 'Custom industrial control panel with organized electrical components and wiring',
     features: [
+    'PLCs de marcas líderes',
+    'HMI táctil integrado',
     'Diseño según normas NOM/IEC',
     'Selección de componentes certificados',
     'Diagramas eléctricos detallados',
@@ -100,15 +102,19 @@ const ServicesInteractive = () => {
     complexity: 'Intermedia',
     implementationTime: '4-6 semanas',
     roi: '12-18 meses',
-    industries: ['Manufactura', 'Automotriz', 'Química'],
+    industries: ['Manufactura', 'Automotriz', 'Médica'],
     technicalSpecs: [
+    'Entradas/salidas digitales y analógicas',
+    'Módulos de comunicación industrial',
     'Gabinetes NEMA 12/IP54',
-    'Componentes Schneider/ABB/Siemens',
+    'Componentes Schneider/ABB/Siemens/Allen-Bradley',
     'Cableado estructurado',
     'Borneras identificadas',
     'Protecciones y seguridades'],
 
     benefits: [
+    'Control preciso y confiable',
+    'Interfaz de operación intuitiva',
     'Instalación plug & play',
     'Mantenimiento simplificado',
     'Seguridad eléctrica certificada',
@@ -137,7 +143,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '6-10 semanas',
     roi: '15-20 meses',
-    industries: ['Manufactura', 'Automotriz', 'Alimentaria', 'Química'],
+    industries: ['Manufactura', 'Automotriz','Médica'],
     technicalSpecs: [
     'Soporte multi-marca de PLCs',
     'Comunicación industrial (Ethernet/IP, PROFINET, Modbus)',
@@ -156,10 +162,10 @@ const ServicesInteractive = () => {
   },
   {
     id: 4,
-    title: 'Diseño y Fabricación',
+    title: 'Maquinados',
     description:
     'Servicios integrales de diseño mecánico y fabricación de componentes y sistemas especiales. Desde el concepto hasta la entrega de equipos listos para operar.',
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_114cbd122-1767868446087.png",
+    image: "/assets/imagenes/services/Maquinados.png",
     alt: 'Precision manufacturing facility with CNC machines fabricating custom mechanical components',
     features: [
     'Diseño CAD 3D (SolidWorks, AutoCAD)',
@@ -174,7 +180,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '10-16 semanas',
     roi: '24-30 meses',
-    industries: ['Manufactura', 'Automotriz', 'Alimentaria'],
+    industries: ['Manufactura', 'Automotriz', 'Médica'],
     technicalSpecs: [
     'Tolerancias de ±0.05mm',
     'Materiales certificados',
@@ -196,7 +202,7 @@ const ServicesInteractive = () => {
     title: 'Integraciones Mecánico-Control',
     description:
     'Integración completa de sistemas mecánicos con sistemas de control automatizado. Sincronización perfecta entre hardware mecánico y software de control para máximo rendimiento.',
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1a07785ad-1769467385110.png",
+    image: "/assets/imagenes/services/Integraciones.png",
     alt: 'Integrated mechatronic system showing mechanical components synchronized with electronic controls',
     features: [
     'Integración mecánica-eléctrica',
@@ -211,7 +217,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '8-14 semanas',
     roi: '20-26 meses',
-    industries: ['Automotriz', 'Manufactura', 'Alimentaria'],
+    industries: ['Automotriz', 'Manufactura', 'Médica'],
     technicalSpecs: [
     'Servomotores y drives industriales',
     'Sensores de posición y velocidad',
@@ -267,10 +273,10 @@ const ServicesInteractive = () => {
   },
   {
     id: 7,
-    title: 'Instalaciones Fuerzas, Control y Redes',
+    title: 'Control y Redes',
     description:
     'Instalación completa de infraestructura eléctrica de fuerza, sistemas de control y redes industriales. Cableado estructurado, canalizaciones y puesta en servicio según normativas.',
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_16f7fbe03-1767047736275.png",
+    image: "/assets/imagenes/services/ControlRedes.png",
     alt: 'Industrial electrical installation showing power distribution, control wiring and network infrastructure',
     features: [
     'Instalaciones eléctricas industriales',
@@ -285,7 +291,7 @@ const ServicesInteractive = () => {
     complexity: 'Intermedia',
     implementationTime: '6-10 semanas',
     roi: '15-20 meses',
-    industries: ['Manufactura', 'Automotriz', 'Química', 'Alimentaria'],
+    industries: ['Manufactura', 'Automotriz', 'Médica'],
     technicalSpecs: [
     'Cumplimiento NOM-001-SEDE',
     'Cable certificado UL/CSA',
@@ -322,13 +328,12 @@ const ServicesInteractive = () => {
     complexity: 'Intermedia',
     implementationTime: '2-4 semanas',
     roi: '12-18 meses',
-    industries: ['Manufactura', 'Automotriz', 'Química', 'Alimentaria'],
+    industries: ['Manufactura', 'Automotriz',  'Médica'],
     technicalSpecs: [
     'Técnicos certificados por fabricantes',
     'Herramientas de diagnóstico avanzadas',
     'Sistema de gestión de mantenimiento',
-    'Inventario de refacciones críticas',
-    'SLAs personalizados'],
+    'Inventario de refacciones críticas'],
 
     benefits: [
     'Reducción de costos operativos',
@@ -344,7 +349,7 @@ const ServicesInteractive = () => {
     title: 'Prensas',
     description:
     'Diseño, fabricación e integración de prensas industriales para aplicaciones de manufactura. Soluciones personalizadas desde prensas hidráulicas hasta sistemas automatizados de estampado.',
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_19d333ee5-1768217053507.png",
+    image: "/assets/imagenes/services/Prensas.JPG",
     alt: 'Industrial hydraulic press machine for manufacturing and stamping operations',
     features: [
     'Prensas hidráulicas y mecánicas',
@@ -396,7 +401,7 @@ const ServicesInteractive = () => {
     complexity: 'Intermedia',
     implementationTime: '4-8 semanas',
     roi: '10-15 meses',
-    industries: ['Automotriz', 'Manufactura', 'Electrónica', 'Alimentaria'],
+    industries: ['Automotriz', 'Manufactura', 'Electrónica', 'Médica'],
     technicalSpecs: [
     'Sensores de presencia y posición',
     'Sistemas de visión artificial',
@@ -418,7 +423,7 @@ const ServicesInteractive = () => {
     title: 'Equipos para Manejo de Materiales',
     description:
     'Soluciones integrales para manejo automatizado de materiales en planta. Desde transportadores hasta sistemas AGV para optimización de flujo de materiales.',
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1ff0463d1-1768869762364.png",
+    image: "/assets/imagenes/services/ManejoMateriales.jpg",
     alt: 'Automated material handling system with conveyors and AGV vehicles in warehouse',
     features: [
     'Transportadores de banda y rodillos',
@@ -433,7 +438,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '10-16 semanas',
     roi: '20-28 meses',
-    industries: ['Manufactura', 'Logística', 'Automotriz', 'Alimentaria'],
+    industries: ['Manufactura', 'Logística', 'Automotriz', 'Médica'],
     technicalSpecs: [
     'Capacidades de carga personalizadas',
     'Velocidades variables controladas',
@@ -450,6 +455,7 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Sistemas de manejo de materiales han reducido tiempos de transporte en 60% y mejorado eficiencia logística en 40%.'
   },
+  /*
   {
     id: 12,
     title: 'Electronic Pull System (EPS)',
@@ -487,6 +493,7 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Sistemas EPS han reducido inventario en proceso en 50% y mejorado tiempo de respuesta a demanda en 70%.'
   },
+  */
   {
     id: 13,
     title: 'Pick and Place',
@@ -507,7 +514,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '8-14 semanas',
     roi: '18-24 meses',
-    industries: ['Electrónica', 'Manufactura', 'Alimentaria', 'Farmacéutica'],
+    industries: ['Electrónica', 'Manufactura', 'Médica'],
     technicalSpecs: [
     'Precisión de ±0.05mm',
     'Velocidades de hasta 120 ciclos/min',
@@ -544,7 +551,7 @@ const ServicesInteractive = () => {
     complexity: 'Intermedia',
     implementationTime: '4-8 semanas',
     roi: '10-15 meses',
-    industries: ['Automotriz', 'Manufactura', 'Electrónica', 'Alimentaria'],
+    industries: ['Automotriz', 'Manufactura', 'Electrónica', 'Médica'],
     technicalSpecs: [
     'Pantallas LED industriales',
     'Botones de llamado ergonómicos',
@@ -561,6 +568,7 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Sistemas Andon han reducido tiempo de respuesta a problemas en 75% y mejorado OEE en 15%.'
   },
+  /*
   {
     id: 15,
     title: 'Energy Management System (EMS)',
@@ -581,7 +589,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '8-12 semanas',
     roi: '18-24 meses',
-    industries: ['Manufactura', 'Automotriz', 'Química', 'Alimentaria'],
+    industries: ['Manufactura', 'Automotriz',  'Médica'],
     technicalSpecs: [
     'Medidores de energía certificados',
     'Comunicación Modbus/Ethernet',
@@ -598,16 +606,16 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Sistemas EMS implementados han reducido consumo energético en 25% y costos de energía en 30%.'
   },
+  */
+ /*
   {
     id: 16,
     title: 'Tableros de Control por PLC',
     description:
-    'Tableros de control basados en PLC para automatización de procesos industriales. Soluciones completas de hardware y software para control preciso.',
+    'Tableros de control basados en PLC para automatización de procesos industriales. ',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1bd7333d5-1767780920787.png",
     alt: 'PLC-based control panel with touchscreen HMI and industrial components',
     features: [
-    'PLCs de marcas líderes',
-    'HMI táctil integrado',
     'Programación personalizada',
     'Comunicación industrial',
     'Respaldos y redundancia',
@@ -618,7 +626,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '6-10 semanas',
     roi: '15-20 meses',
-    industries: ['Manufactura', 'Automotriz', 'Química', 'Alimentaria'],
+    industries: ['Manufactura', 'Automotriz',  'Médica'],
     technicalSpecs: [
     'PLCs Allen-Bradley, Siemens, Omron',
     'HMI de 7" a 21"',
@@ -635,6 +643,8 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Tableros de control por PLC han mejorado precisión de procesos en 40% y reducido paros en 65%.'
   },
+  */
+  /*
   {
     id: 17,
     title: 'Control Automático de Tableros de Alumbrado',
@@ -672,6 +682,8 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Sistemas de control de alumbrado han reducido consumo de iluminación en 55% y mejorado ambiente de trabajo.'
   },
+  */
+  /*
   {
     id: 18,
     title: 'Monitoreo y Control de Procesos',
@@ -692,7 +704,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '10-16 semanas',
     roi: '20-26 meses',
-    industries: ['Manufactura', 'Química', 'Alimentaria', 'Farmacéutica'],
+    industries: ['Manufactura',  'Médica'],
     technicalSpecs: [
     'Plataformas WinCC, Ignition, FactoryTalk',
     'Comunicación OPC UA/DA',
@@ -709,6 +721,7 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Sistemas SCADA implementados han mejorado tiempo de respuesta en 80% y reducido paros no planificados en 60%.'
   },
+  */
   {
     id: 19,
     title: 'Fabricaciones de Mecanización (Nuevos o Retrofits)',
@@ -766,7 +779,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '8-14 semanas',
     roi: '18-24 meses',
-    industries: ['Automotriz', 'Electrónica', 'Farmacéutica', 'Alimentaria'],
+    industries: ['Automotriz', 'Electrónica', 'Médica'],
     technicalSpecs: [
     'Cámaras de alta resolución',
     'Procesamiento en tiempo real',
@@ -785,7 +798,7 @@ const ServicesInteractive = () => {
   },
   {
     id: 21,
-    title: 'Sistemas de Tracking de Materiales',
+    title: 'Sistemas de Tracking de Materiales y Productos',
     description:
     'Sistemas de rastreo y trazabilidad de materiales en planta. Seguimiento en tiempo real de componentes, productos y herramientas mediante RFID y código de barras.',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_12ce4ac9b-1764658762607.png",
@@ -840,7 +853,7 @@ const ServicesInteractive = () => {
     complexity: 'Intermedia',
     implementationTime: '6-10 semanas',
     roi: '12-18 meses',
-    industries: ['Alimentaria', 'Farmacéutica', 'Logística', 'Manufactura'],
+    industries: ['Médica', 'Logística', 'Manufactura'],
     technicalSpecs: [
     'Velocidades de hasta 300 escaneos/min',
     'Lectura omnidireccional',
@@ -857,6 +870,7 @@ const ServicesInteractive = () => {
     caseStudyMetric:
     'Sistemas de escaneo en línea han eliminado errores de etiquetado y mejorado velocidad de verificación en 300%.'
   },
+  /*
   {
     id: 23,
     title: 'Proyectos de Velocidad Variable con Drives AC, CD y Servo',
@@ -877,7 +891,7 @@ const ServicesInteractive = () => {
     complexity: 'Avanzada',
     implementationTime: '6-12 semanas',
     roi: '15-22 meses',
-    industries: ['Manufactura', 'Automotriz', 'Química', 'Alimentaria'],
+    industries: ['Manufactura', 'Automotriz',  'Médica'],
     technicalSpecs: [
     'Drives ABB, Siemens, Allen-Bradley',
     'Potencias de 0.5 a 500 HP',
@@ -893,7 +907,8 @@ const ServicesInteractive = () => {
 
     caseStudyMetric:
     'Proyectos de velocidad variable han reducido consumo energético en 45% y mejorado precisión de control en 60%.'
-  }];
+  }
+    */];
   const filteredServices = mockServices.filter((service) => {
     const matchesCategory =
     selectedCategory === 'Todos' || service.category === selectedCategory;

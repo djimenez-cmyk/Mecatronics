@@ -39,7 +39,7 @@ const LocationMap: React.FC = () => {
           loading="lazy"
           title="Ubicación de C&S Mecatronics Technologies en San Nicolás de los Garza"
           referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps?q=25.7479,-100.2803&z=15&output=embed"
+          src="https://www.google.com/maps?q=25.748777,-100.286144&z=15&output=embed"
           className="absolute inset-0"
         />
       </div>

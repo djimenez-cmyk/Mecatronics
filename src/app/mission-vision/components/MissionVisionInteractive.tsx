@@ -146,19 +146,19 @@ export default function MissionVisionInteractive() {
   {
     icon: 'CheckBadgeIcon',
     title: 'Proyectos Completados',
-    value: '500+',
+    value: '1500+',
     description: 'Implementaciones exitosas'
   },
   {
     icon: 'UserGroupIcon',
-    title: 'Clientes Satisfechos',
-    value: '200+',
+    title: 'Solcuiones Implementadas',
+    value: '1000+',
     description: 'Empresas confían en nosotros'
   },
   {
     icon: 'TrophyIcon',
     title: 'Años de Experiencia',
-    value: '16+',
+    value: '20+',
     description: 'Liderando la industria'
   },
   /*
@@ -253,7 +253,7 @@ export default function MissionVisionInteractive() {
                   Misión
                 </h2>
                 <p className="text-lg text-text-secondary leading-relaxed mb-6">
-                  Proveer de soluciones integrales a las necesidades de automatización, control y adquisición de información; que genera la industria del territorio nacional e internacional. Esto con el empleo de la tecnología de vanguardia y personal multidisciplinario altamente capacitado.
+                  Producir produtos de precisión que cumplan con las expectativas y especificaciones de nuestros clientes, garantizando calidad y costos competitivos.
                 </p>
                 <div className="flex items-start space-x-3 p-4 bg-accent/10 rounded-lg border-l-4 border-accent">
                   <Icon name="LightBulbIcon" size={24} className="text-accent flex-shrink-0 mt-1" />
@@ -276,7 +276,7 @@ export default function MissionVisionInteractive() {
                   Visión
                 </h2>
                 <p className="text-lg text-text-secondary leading-relaxed mb-6">
-                  Como proveedores en servicios de automatización para las diversas industrias existentes; C&S Mecatronics Technologies S.A. de C.V. se establecerá como la primera línea de consignatarios en la que confíen y piensen nuestros clientes al momentos de surgir una necesidad en automatización y sistemas de información. Manteniendo la calidad de nuestro servicio e implementar la mejora continua del día a día, esto con la finalidad de ofrecer en tiempos venideros la confiabilidad y el excelente servicio que nos respaldan hoy en día.
+                  Consolidarnos como líderes en maquinados de precisión y ensamble, distinguidos por nuestra disciplina operativa, cumplimiento en las entregas y excelencia en la calidad.
                 </p>
                 <div className="flex items-start space-x-3 p-4 bg-success/10 rounded-lg border-l-4 border-success">
                   <Icon name="RocketLaunchIcon" size={24} className="text-success flex-shrink-0 mt-1" />
@@ -364,7 +364,7 @@ export default function MissionVisionInteractive() {
       </section>
       */}
 
-      {/* Vision Goals */}
+      {/* Vision Goals 
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -396,6 +396,7 @@ export default function MissionVisionInteractive() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Achievements */}
       <section className="py-16 bg-primary">

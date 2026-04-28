@@ -34,14 +34,29 @@ const ExperienceInteractive = () => {
     description: "Soluciones integrales para el transporte, almacenamiento y manipulación eficiente de materiales en procesos industriales.",
     photos: [
     {
-      image: "/assets/imagenes/aplicaciones/1equipo_manejo_materiales/imagen-1.jpg",
-      alt: "Automated material handling system with conveyor belts in modern warehouse",
-      caption:""// "Sistema automatizado de transporte de materiales"
+      image: "/assets/imagenes/experience/equipo-manejo-materiales/GravityRollerConveyor.jpg",
+      alt: "Gravity Roller Conveyor",
+      caption:"Gravity Roller Conveyor"// "Sistema automatizado de transporte de materiales"
     },
     {
-      image: "/assets/imagenes/aplicaciones/1equipo_manejo_materiales/imagen-2.jpg",
-      alt: "Industrial robotic arm handling materials in manufacturing facility",
-      caption:""// "Brazo robótico para manejo de materiales pesados"
+      image: "/assets/imagenes/experience/equipo-manejo-materiales/PhotoConveyor.jpg",
+      alt: "Photo Conveyor",
+      caption:"Photo Conveyor"// "Brazo robótico para manejo de materiales pesados"
+    },
+    {
+      image: "/assets/imagenes/experience/equipo-manejo-materiales/PlasticBeltConveyor.jpg",
+      alt: "Plastic Belt Conveyor",
+      caption:"Plastic Belt Conveyor"// "Sistema automatizado de transporte de materiales"
+    },
+    {
+      image: "/assets/imagenes/experience/equipo-manejo-materiales/PlasticBeltConveyor2.jpg",
+      alt: "Plastic Belt Conveyor 2",
+      caption:"Plastic Belt Conveyor 2"// "Sistema automatizado de transporte de materiales"
+    },
+    {
+      image: "/assets/imagenes/experience/equipo-manejo-materiales/MiniConveyor.jpg",
+      alt: "Mini Conveyor",
+      caption:"Mini Conveyor"// "Sistema automatizado de transporte de materiales"
     }]
 
   },
@@ -85,13 +100,23 @@ const ExperienceInteractive = () => {
     description: "Diseño, maquinado y fabricación de maquinaria industrial especializada y componentes de alta precisión.",
     photos: [
     {
-      image: "/assets/imagenes/aplicaciones/4maquinados/Imagen-9.jpg",
-      alt: "CNC machining center producing precision metal components",
-      caption:""// "Centro de maquinado CNC de alta precisión"
+      image: "/assets/imagenes/experience/maquinado/Img0427.png",
+      alt: "",
+      caption:""// "Panel de control con interfaz táctil personalizada"
     },
     {
-      image: "/assets/imagenes/aplicaciones/4maquinados/Imagen-5.jpg",
-      alt: "Custom industrial machinery assembly in manufacturing facility",
+      image: "/assets/imagenes/experience/maquinado/Img0472.jpg",
+      alt: "",
+      caption:""// "Ensamblaje de maquinaria industrial personalizada"
+    },
+    {
+      image: "/assets/imagenes/experience/maquinado/Img0474.jpg",
+      alt: "",
+      caption:""// "Panel de control con interfaz táctil personalizada"
+    },
+    {
+      image: "/assets/imagenes/experience/maquinado/Img4336.jpg",
+      alt: "",
       caption:""// "Ensamblaje de maquinaria industrial personalizada"
     }]
 
@@ -102,13 +127,23 @@ const ExperienceInteractive = () => {
     description: "Diseño y fabricación de tableros de control eléctrico y automatización con tecnología PLC de última generación.",
     photos: [
     {
-      image: "/assets/imagenes/aplicaciones/5tableros/imagen-3.jpg",
-      alt: "Industrial electrical control panel with PLC and circuit breakers",
+      image: "/assets/imagenes/experience/tableros/Dsc03692.jpg",
+      alt: "",
       caption:""// "Tablero de control con PLC y protecciones eléctricas"
     },
     {
-      image: "/assets/imagenes/aplicaciones/5tableros/imagen-17.jpg",
-      alt: "Modern control cabinet with digital displays and automation components",
+      image: "/assets/imagenes/experience/tableros/Dsc04844.jpg",
+      alt: "",
+      caption:""// "Gabinete de control moderno con componentes digitales"
+    },
+    {
+      image: "/assets/imagenes/experience/tableros/Dsc06333.jpg",
+      alt: "",
+      caption:""// "Tablero de control con PLC y protecciones eléctricas"
+    },
+    {
+      image: "/assets/imagenes/experience/tableros/Dsc1006049.jpg",
+      alt: "",
       caption:""// "Gabinete de control moderno con componentes digitales"
     }]
 
@@ -194,7 +229,7 @@ const ExperienceInteractive = () => {
               {/* Photo Gallery */}
               <div className="p-6">
                 <div className="grid grid-cols-2 gap-4">
-                  {category.photos.map((photo, index) =>
+                  {category.photos.slice(0, 2).map((photo, index) =>
                 <div
                   key={index}
                   className="group relative aspect-video rounded-lg overflow-hidden bg-muted cursor-pointer"
