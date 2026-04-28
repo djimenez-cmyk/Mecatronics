@@ -14,12 +14,12 @@ interface ContactMethod {
 const ContactInfo: React.FC = () => {
   const contactMethods: ContactMethod[] = [
     {
-      icon: 'PhoneIcon',
-      title: 'Teléfono',
-      details: ['01(81) 8383-9460', '01(81) 8330-0717'],
+      icon: 'whatsapp',
+      title: 'Whatsapp',
+      details: ['(81) 4593 1809'],
       action: {
-        label: 'Llamar ahora',
-        href: 'tel:018183839460',
+        label: 'Contactanos',
+        href: 'https://wa.me/528145931809',
       },
     },
     {
@@ -76,7 +76,7 @@ const ContactInfo: React.FC = () => {
           >
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                <Icon name={method.icon as any} size={24} className="text-primary" />
+                <Icon name={method.icon as any} size={24} className="text-primary text-[28px]" />
               </div>
               <div className="flex-1">
                 <h3 className="text-lg font-heading font-semibold text-text-primary mb-2">
