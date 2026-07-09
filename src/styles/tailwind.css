@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core Background Colors */
+    --color-background: #F7F7F7; /* white */
+    --color-foreground: #000000; /* black */
+    --color-card: #FFFFFF; /* white */
+    --color-card-foreground: #000000; /* black */
+    --color-popover: #FFFFFF; /* white */
+    --color-popover-foreground: #000000; /* black */
+    
+    /* Surface and Border Colors */
+    --color-border: #E5E5E5; /* light gray */
+    --color-input: #F5F5F5; /* very light gray */
+    --color-ring: #A67C00; /* gold */
+    --color-surface: #ffffff; /* off-white */
+    
+    /* Muted Colors */
+    --color-muted: #F5F5F5; /* light gray */
+    --color-muted-foreground: #666666; /* medium gray */
+    
+    /* Primary Brand Colors */
+    --color-primary: #A67C00; /* gold */
+    --color-primary-foreground: #FFFFFF; /* white */
+    
+    /* Secondary Brand Colors */
+    --color-secondary: #000000; /* black */
+    --color-secondary-foreground: #FFFFFF; /* white */
+    
+    /* Accent Colors */
+    --color-accent: #A67C00; /* gold */
+    --color-accent-foreground: #000000; /* black */
+    
+    /* Status Colors - Success */
+    --color-success: #A67C00; /* gold */
+    --color-success-foreground: #FFFFFF; /* white */
+    
+    /* Status Colors - Warning */
+    --color-warning: #D4A017; /* lighter gold */
+    --color-warning-foreground: #000000; /* black */
+    
+    /* Status Colors - Error/Destructive */
+    --color-error: #8B0000; /* dark red */
+    --color-error-foreground: #FFFFFF; /* white */
+    --color-destructive: #8B0000; /* dark red */
+    --color-destructive-foreground: #FFFFFF; /* white */
+    
+    /* Additional Brand Colors */
+    --color-brand-secondary: #000000; /* black */
+    --color-brand-secondary-foreground: #A67C00; /* gold */
+    --color-conversion: #A67C00; /* gold */
+    --color-conversion-foreground: #000000; /* black */
+    --color-trust: #000000; /* black */
+    --color-trust-foreground: #A67C00; /* gold */
+    --color-cta: #E0AC00; /* gold */
+    --color-cta-foreground: #000000; /* black */
+    
+    /* Text Hierarchy */
+    --color-text-primary: #000000; /* black */
+    --color-text-secondary: #374151; /* gray */
+    
+    /* Spacing Scale (Golden Ratio) */
+    --spacing-xs: 8px;
+    --spacing-sm: 13px;
+    --spacing-md: 21px;
+    --spacing-lg: 34px;
+    --spacing-xl: 55px;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  code, pre {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .animation-smooth {
+    transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+  
+  .shadow-brand {
+    box-shadow: var(--shadow-md);
+  }
+  
+  .shadow-brand-sm {
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .shadow-brand-lg {
+    box-shadow: var(--shadow-lg);
+  }
+}
